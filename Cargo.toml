@@ -1,0 +1,8 @@
+[package]
+name = "sht31d"
+version = "0.1.0"
+authors = ["Terrence Lam <skyuplam@gmail.com>"]
+description = "Interface to the SHT31-D temperature and humidity sensor"
+keywords = ["i2c", "embedded-hal-driver", "sht31d"]
+
+[dependencies]
