@@ -2,7 +2,19 @@
 name = "sht31d"
 version = "0.1.0"
 authors = ["Terrence Lam <skyuplam@gmail.com>"]
+repository = "https://github.com/skyuplam/sht31d"
+license = "MIT OR Apache-2.0"
 description = "Interface to the SHT31-D temperature and humidity sensor"
+readme = "README.md"
 keywords = ["i2c", "embedded-hal-driver", "sht31d"]
+categories = ["embedded", "hardware-support", "no-std"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE-MIT",
+    "LICENSE-APACHE",
+]
 
 [dependencies]
+embedded-hal = "0.2"
